@@ -1,0 +1,1 @@
+# frontend_takehome_stripped
