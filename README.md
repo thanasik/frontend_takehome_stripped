@@ -1,1 +1,38 @@
-# frontend_takehome_stripped
+# Frontend Engineer Test
+
+Your task is to create a single interactive page [My Activity Page] using Web2 technologies. The purpose of the page is to test your ability  to understand how to get a crud framework up and running. A backend server will be given to you to be able to assist you in the CRUD elements of this task.
+
+Libraries:
+- React
+- Tailwind
+- Font Awesome
+- Element UI 
+
+Framework Requirements:
+- Create framework/Install libraries
+- npm run serve should bring up your My Activity Page on port 4040
+
+Page Requirements:
+	Task 1: 
+        - Create My Activity Page based on the provided screenshot
+        - It should closely mimic the look of the screenshot
+ 	Task 2:
+        - On page load
+            - The icons should display platform icon (Font Awesome) based on the socialPlatform data
+                - socialPlatform - Options: ['Instagram', 'Facebook', 'Twitter']
+                - socialType - Options: ['Liked', 'Shared', 'Post']
+ 			
+ 	Task 3: (Use Element UI Component i.e Button/Modal etc)
+        - Add a [Create activity] button as shown in the screenshot
+        - On button click, a modal should appear to create an activity
+            - The following elements should appear in the modal:
+                - Description [Input Text]
+                - Social Platform [Select Dropdown] (options: Facebook, Instagram, Twitter)
+                - Social Type [Select Dropdown] (options: Liked, Shared, Post)
+                - Points Earned [Input Number Component]
+
+            - Add Cancel/Submit buttons
+            - On Cancel (Close modal)
+            - On Submit
+                - Modal should close, and the table should be updated dynamically
+        - Style the modal
