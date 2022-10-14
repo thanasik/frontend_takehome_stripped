@@ -4,9 +4,9 @@ Your task is to create a single interactive page [My Activity Page] using Web2 t
 
 Libraries:
 - React
-- Tailwind
+- TailwindCSS
 - Font Awesome
-- Element UI 
+- Your Favorite UI Framework (example: Bootstrap) 
 
 Framework Requirements:
 - Create framework/Install libraries
